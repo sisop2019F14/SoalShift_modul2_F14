@@ -55,10 +55,11 @@ int main() {
     
         FILE *fileSyslog;
         char syslogDir[]="/var/log/syslog";
-        fileSyslog = fopen(syslogDir,"r");
+        
 
         for(i=1; i<=30; i++){
             
+            fileSyslog = fopen(syslogDir,"r");
             char newFilename[30];
             //get new file name
             snprintf(newFilename,30,"%s/log%d.log",time,i);
@@ -71,11 +72,9 @@ int main() {
             }
 
             fclose(newFileLog);
+            fclose(fileSyslog);
             sleep(60);
-        }
-
-        fclose(fileSyslog);
-               
+        }        
     }
     
     exit(EXIT_SUCCESS);
