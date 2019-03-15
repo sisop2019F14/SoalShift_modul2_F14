@@ -19,6 +19,8 @@ Program c ini menggunakan daemon process, dimana awalnya kita menentukan directo
 
  
 Lalu deklarasikan variable, disini, imgsrc dan dest mewakilkan sumber dan tujuan dari file yang akan diubah namanya, file yang akan diubah berada pada direktori /home/anwar/praktikum_2/no1/ dan nantinya akan disimpan di /home/anwar/modul2/gambar/. Karena kita akan mengubah nama file yang memiliki ekstensi .png menjadi “[namafile]_grey.png” maka  _grey.png disimpan dalam char bernama nameRule. Setelah itu lakukan pencarian file .png dalam directori / home/anwar/praktikum_2/no1/  nama file tersebut dimasukkan ke dalam char originalName. Buat susunan aturannya dalam char newName, lalu rename originalName menjadi newName.
+
+![no1](https://user-images.githubusercontent.com/47809366/54416091-f2dbbc80-4730-11e9-8371-c698e875a1c9.png)
  
 Soal 2
 
@@ -37,15 +39,34 @@ Lakukan pencarian file bernama elen.ku, setelah itu dapatkan owner dan group. Ji
 
 ![soal2-2](https://user-images.githubusercontent.com/47809366/54402740-bf346e80-46ff-11e9-9e30-f42e1a55dde8.PNG)
 
+![no2](https://user-images.githubusercontent.com/47809366/54416095-f53e1680-4730-11e9-9719-b771045b9f39.png)
+
 Soal 3
 
 Membuat Program mengekstrak file zip campur2.zip lalu menyimpan daftar file dari folder “campur2” yang memiliki ekstensi .txt ke dalam file daftar.txt. 
 
 Jawaban:
 
-[soal3.c]( https://github.com/sisop2019F14/SoalShift_modul2_F14/blob/master/no3/no3.c)
+[soal3.c]( https://github.com/sisop2019F14/SoalShift_modul2_F14/blob/master/no3/true3.c)
+
+
+![no3](https://user-images.githubusercontent.com/47809366/54416101-f7a07080-4730-11e9-8f33-af8577269774.png)
+
+![no3_p2](https://user-images.githubusercontent.com/47809366/54416103-f96a3400-4730-11e9-97fb-9d2d97a2ec47.png)
+
 
 Soal 4
+
+membuat program C yang berjalan setiap 5 detik untuk memeriksa apakah file makan_enak.txt pernah dibuka setidaknya 30 detik yang lalu (rentang 0 - 30 detik).
+
+Jika file itu pernah dibuka, program Anda akan membuat 1 file makan_sehat#.txt di direktori /home/[user]/Documents/makanan dengan '#' berisi bilangan bulat dari 1 sampai tak hingga.
+
+Jawaban:
+
+[soal4.c](https://github.com/sisop2019F14/SoalShift_modul2_F14/blob/master/no4/no4.c)
+
+![no4](https://user-images.githubusercontent.com/47809366/54416108-fb33f780-4730-11e9-947c-4cb0c4b7901a.png)
+
 
 Soal 5
 
@@ -64,4 +85,10 @@ Jawaban:
 [soal5a.c]( https://github.com/sisop2019F14/SoalShift_modul2_F14/blob/master/no5/no5a.c)
 
 [soal5b.c]( https://github.com/sisop2019F14/SoalShift_modul2_F14/blob/master/no5/no5b.c)
+
+
+![no5a](https://user-images.githubusercontent.com/47809366/54416299-93ca7780-4731-11e9-8438-1f8909d5976d.png)
+
+![no5b](https://user-images.githubusercontent.com/47809366/54416320-9e850c80-4731-11e9-9ca7-171b3a1afc6e.png)
+
 
