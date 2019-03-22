@@ -13,9 +13,11 @@ Jawaban:
 
 Program c ini menggunakan daemon process, dimana awalnya kita menentukan directory mana yang akan digunakan untuk menampung daemon process tersebut(/home/anwar/praktikum_2/no1)
 
-![soal1-2](https://user-images.githubusercontent.com/47809366/54402682-78467900-46ff-11e9-8541-642b07c41124.PNG)
+![rev1](https://user-images.githubusercontent.com/47809366/54836261-716ac800-4cf6-11e9-97b6-08851427f070.PNG)
 
-![soal1-3](https://user-images.githubusercontent.com/47809366/54402685-7977a600-46ff-11e9-98b2-a5a6132d4845.PNG)
+
+![rev2](https://user-images.githubusercontent.com/47809366/54836262-72035e80-4cf6-11e9-9bd1-5063d4bb9abb.PNG)
+
 
  
 Lalu deklarasikan variable, disini, imgsrc dan dest mewakilkan sumber dan tujuan dari file yang akan diubah namanya, file yang akan diubah berada pada direktori /home/anwar/praktikum_2/no1/ dan nantinya akan disimpan di /home/anwar/modul2/gambar/. Karena kita akan mengubah nama file yang memiliki ekstensi .png menjadi “[namafile]_grey.png” maka  _grey.png disimpan dalam char bernama nameRule. lakukan looping pada direktori /home/anwar/praktikum_2/no1/, ambil judul dan gabungkan dengan string /home/anwar/praktikum_2/no1/ pada array originalName, lalu ambil judul dan masukkan dalam filename, setelah itu ambil ekstensi file dan cek apakah file tersebut berekstensi png, jika iya maka ambil string /home/anwar/modul2/gambar/ masukkan ke string newname, lalu ambil filename dan gabungkan dengan namerule, lalu gabungkan dengan string newname dan rename originalname dengan newname.
@@ -105,9 +107,13 @@ Jawaban:
 
 a. yang pertama dilakukan adalah mengambil waktu sekarang, lalu setelah itu ambil isi file syslog pada /var/log/syslog untuk dimasukkan kedalam direktori baru. setelah itu buat file baru sesuai dengan ketentuan (sleep diatur 60 detik)
 
-![5a-1](https://user-images.githubusercontent.com/47809366/54432315-6abedc80-475b-11e9-9b49-5f313802a828.PNG)
 
-![5a-2](https://user-images.githubusercontent.com/47809366/54432317-6bf00980-475b-11e9-8a77-f7c6d580e03a.PNG)
+![rev3](https://user-images.githubusercontent.com/47809366/54836263-72035e80-4cf6-11e9-95e5-9d5d2cbce4e6.PNG)
+
+
+![rev4](https://user-images.githubusercontent.com/47809366/54836266-729bf500-4cf6-11e9-8808-3e769a2e23f6.PNG)
+
+
 
 b. buka direktori tempat file yang dibuat tadi dan ambil pidnya(menggunakan popen, pidof pada direktori (/home/anwar/log/no5a)), lalu kirim sinyal untuk membunuh proses tersebut.
 
