@@ -18,7 +18,7 @@ Program c ini menggunakan daemon process, dimana awalnya kita menentukan directo
 ![soal1-3](https://user-images.githubusercontent.com/47809366/54402685-7977a600-46ff-11e9-98b2-a5a6132d4845.PNG)
 
  
-Lalu deklarasikan variable, disini, imgsrc dan dest mewakilkan sumber dan tujuan dari file yang akan diubah namanya, file yang akan diubah berada pada direktori /home/anwar/praktikum_2/no1/ dan nantinya akan disimpan di /home/anwar/modul2/gambar/. Karena kita akan mengubah nama file yang memiliki ekstensi .png menjadi “[namafile]_grey.png” maka  _grey.png disimpan dalam char bernama nameRule. Setelah itu lakukan pencarian file .png dalam directori / home/anwar/praktikum_2/no1/  nama file tersebut dimasukkan ke dalam char originalName. Buat susunan aturannya dalam char newName, lalu rename originalName menjadi newName.
+Lalu deklarasikan variable, disini, imgsrc dan dest mewakilkan sumber dan tujuan dari file yang akan diubah namanya, file yang akan diubah berada pada direktori /home/anwar/praktikum_2/no1/ dan nantinya akan disimpan di /home/anwar/modul2/gambar/. Karena kita akan mengubah nama file yang memiliki ekstensi .png menjadi “[namafile]_grey.png” maka  _grey.png disimpan dalam char bernama nameRule. lakukan looping pada direktori /home/anwar/praktikum_2/no1/, ambil judul dan gabungkan dengan string /home/anwar/praktikum_2/no1/ pada array originalName, lalu ambil judul dan masukkan dalam filename, setelah itu ambil ekstensi file dan cek apakah file tersebut berekstensi png, jika iya maka ambil string /home/anwar/modul2/gambar/ masukkan ke string newname, lalu ambil filename dan gabungkan dengan namerule, lalu gabungkan dengan string newname dan rename originalname dengan newname.
 
 Hasil: 
 
